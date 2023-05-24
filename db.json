@@ -1,0 +1,46 @@
+{
+  "paginas": [
+    {
+      "titulo": "Arroz com calabresa na pressão fácil",
+      "ingredientes": "1 colher de sopa de óleo\n\n1/2 cebola picada\n\n1 gomo de linguiça calabresa cortada em fatias\n\n3 dentes de alho picados\n\n2 xícaras de chá de arroz\n\n1 cenoura ralada\n\n1 lata de milho escorrido\n\nCheiro-verde a gosto\n\n1/2 sachê de molho de tomate\n\nSal a gosto\n\n3 xícaras de chá de água quente",
+      "tempo": "25min",
+      "porcao": "5 porções",
+      "id": 1
+    },
+    {
+      "titulo": "Macarrão ao molho branco rápido",
+      "ingredientes": "½ pacote do macarrão de sua preferência\n\n3 colheres de sopa de óleo\n\nÁgua para cozinhar o macarrão\n\n½ cebola picada\n\n2 dentes de alho picados\n\n1 copo de requeijão\n\nCebolinha e salsinha a gosto\n\n1 caixinha de creme de leite\n\nSal a gosto",
+      "tempo": "20min",
+      "porcao": " 4 porções",
+      "id": 2
+    },
+    {
+      "titulo": "Macarrão com queijo no micro-ondas rápido",
+      "ingredientes": "1 xícara de chá de macarrão (de sua preferência)\n\n1 xícara de chá de água\n\n1 pitada de sal\n\nQueijo mussarela á gosto\n\nPimenta-do-reino á gosto\n\n2 colheres de sopa de requeijão\n\nCerca de 100ml de leite",
+      "tempo": " 5min",
+      "porcao": " 1 porção",
+      "id": 3
+    },
+    {
+      "titulo": "Filé de frango cremoso fácil",
+      "ingredientes": "500 g de filé de frango\n\n1 pacote de creme de cebola\n\n200 ml de leite de coco\n\n1 caixa de creme de leite\n\n1 copo de requeijão\n\n1 colher de sopa de mostarda\n\n1 colher de chá de molho inglês\n\nSal e pimenta-do-reino a gosto",
+      "tempo": "40min",
+      "porcao": " 5 porções",
+      "id": 4
+    },
+    {
+      "titulo": "Strogonoff de carne rápido",
+      "ingredientes": "1 colher de sopa de azeite\n\n1 colher de sopa de manteiga\n\n1/2 cebola picada\n\n500 gramas de carne picada\n\n1 colher de chá de sal\n\nPimenta-do-reino a gosto\n\n1 colher de sopa de molho inglês\n\n1 colher de sopa de mostarda\n\n1 colher de sopa de ketchup\n\n2 tomates sem pele e sem sementes picados\n\n1/2 xícara de chá de champignon\n\n1 lata de creme de leite sem soro (300 gramas)",
+      "tempo": "25min",
+      "porcao": " 6 porções",
+      "id": 5
+    },
+    {
+      "titulo": "Arroz colorido cremoso rápido",
+      "ingredientes": "2 colheres de sopa de óleo\n\n150 gramas de linguiça calabresa fatiadas ou picadas\n\n1 cebola picada\n\n3 dentes de alho picados\n\n1/2 pimentão picado\n\n1 cenoura média picada\n\n1/2 lata de milho-verde sem a conserva\n\n1/2 lata de ervilha sem a conserva\n\n2 xícaras de chá de arroz\n\n1/2 colher de chá de açafrão\n\n1/2 colher de chá de pimenta-do-reino\n\n1/2 colher de chá de sal\n\n3 xícaras de chá de água quente\n\n200 gramas de requeijão cremoso\n\n5 azeitonas picadas\n\nCheiro verde a gosto\n\n200 gramas de queijo mussarela\n\nBatata palha para decorar",
+      "tempo": "35min",
+      "porcao": " 6 porções",
+      "id": 6
+    }
+  ]
+}
