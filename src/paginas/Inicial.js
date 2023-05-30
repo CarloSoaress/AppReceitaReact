@@ -1,24 +1,22 @@
 import React from 'react';
 import { View, Text, StyleSheet, ImageBackground, Image } from 'react-native';
-import Botao from '../componentes/Botao'
+import Botao from '../componentes/Botao';
 
 const Inicial = ({ navigation }) => {
 
-    return (
-        <View style={estilos.main}>
-            <ImageBackground source={require('../img/varias_comidas.jpg')} resizeMode="cover" style={estilos.background}>
-                <View style={estilos.container}>
-
-                    <Text style={estilos.titulo}>Receitas</Text>
-
-                    <Image style={estilos.img_logo} source={require('../img/icon_receita.png')}/>
-                    <View style={estilos.ContainerBotoes}>
-                        <Botao style={estilos.botoes} titulo="Começar" acao={ () => navigation.navigate('Escolha') } />
-                    </View>
-                </View>
-            </ImageBackground>
+  return (
+    <View style={estilos.main}>
+      <ImageBackground source={require('../img/map.jpg')} resizeMode="cover" style={estilos.background}>
+        <View style={estilos.container}>
+          <Text style={estilos.titulo}>Viagens</Text>
+          <Image style={estilos.img_logo} source={require('../img/travel.png')} />
+          <View style={estilos.containerBotoes}>
+            <Botao style={estilos.botao} titulo="Começar" acao={() => navigation.navigate('Escolha')} />
+          </View>
         </View>
-    );
+      </ImageBackground>
+    </View>
+  );
 
 }
 
@@ -59,7 +57,6 @@ const estilos = StyleSheet.create({
         color: "#8904B1",
         fontFamily: "Arial",
     },
-
 });
 
 export default Inicial;

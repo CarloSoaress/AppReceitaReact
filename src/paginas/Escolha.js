@@ -1,26 +1,23 @@
 import React from 'react';
 import { View, Text, StyleSheet, ImageBackground } from 'react-native';
-import Botao from '../componentes/Botao'
+import Botao from '../componentes/Botao';
 
 const Escolha = ({ navigation }) => {
 
-    return (
-
-        <View style={estilos.main}>
-            <ImageBackground source={require('../img/varias_comidas.jpg')} resizeMode="cover" style={estilos.background}>
-                <View style={estilos.container}>
-
-                    <Text style={estilos.titulo}>Receitas</Text>
-
-                    <View style={estilos.ContainerBotoes}>
-                        <Botao style={estilos.botoes} titulo="Adicionar nova receita" acao={ () => navigation.navigate('AdicionarReceita') } />
-                        <Botao style={estilos.botoes} titulo="Receitas salvas" acao={ () => navigation.navigate('VerReceitas') } />
-                    </View>
-                </View>
-            </ImageBackground>
+  return (
+    <View style={estilos.main}>
+      <ImageBackground source={require('../img/map.jpg')} resizeMode="cover" style={estilos.background}>
+        <View style={estilos.container}>
+          <Text style={estilos.titulo}>Viagens</Text>
+          <View style={estilos.containerBotoes}>
+            <Botao style={estilos.botao} titulo="Adicionar novo registro" acao={() => navigation.navigate('AdicionarRegistro')} />
+            <Botao style={estilos.botao} titulo="Registros salvos" acao={() => navigation.navigate('VerReregistros')} />
+          </View>
         </View>
+      </ImageBackground>
+    </View>
+  );
 
-    );
 }
 
 const estilos = StyleSheet.create({
